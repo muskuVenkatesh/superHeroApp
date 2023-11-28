@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero Hunter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- body background -->
+    <video autoplay muted loop id="myvideo">
+        <source src="images/Sdf-1.m4v" type="video/mp4">
+    </video>
+
+    <div class="container">
+
+        <!-- Heading  -->
+        <div class="head">
+            <h1>Superhero Hunter</h1>
+            <a href="./favHeroes.html"><h1>Favourite</h1></a>
+        </div>
+        
+        <!-- searchbar -->
+        <div id="data-container">
+            <input type="search" name="searchHero" id="searchHero" placeholder="Search here(min. 3 characters)">
+            <div class="super-contain">
+            <ul id="searchResults">    
+            </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
